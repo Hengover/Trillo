@@ -170,7 +170,7 @@ body {
     background-color: var(--color-grey-light-3);
     width: 100%;
     border-radius: 0 0 10px 10px;
-    z-index: 1; }
+    z-index: 15; }
   .search__list {
     list-style: none; }
   .search__input:placeholder-shown {
@@ -239,7 +239,7 @@ body {
     transform: scaleY(0);
     transition: all .2s;
     transform-origin: top;
-    z-index: 10; }
+    z-index: 20; }
   .user-nav__icon-box:hover .user-nav__chat {
     transform: scaleY(1); }
   .user-nav__chat-item {
@@ -276,7 +276,7 @@ body {
     transform: scaleY(0);
     transition: all .2s;
     transform-origin: top;
-    z-index: 10; }
+    z-index: 20; }
   .user-nav__user:hover .user-nav__user-navigation {
     transform: scaleY(1); }
   .user-nav__user-item {
